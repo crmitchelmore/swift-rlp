@@ -11,6 +11,6 @@ let package = Package(
       	.package(url: "https://github.com/crmitchelmore/BigInt.git", from: "3.0.0"),
     ],
    	targets: [
-    	.target(name: "swift-rlp", dependencies: ["BigInt"]),
+    	.target(name: "swift-rlp", dependencies: ["BigInt"], path: "Sources"),
   	]
 )
