@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "BigInt",
+        "repositoryURL": "https://github.com/lorentey/BigInt.git",
+        "state": {
+          "branch": null,
+          "revision": "69c0ae3fb52695c8940cff75451ab5f214adc5ec",
+          "version": "1.3.0"
+        }
+      }
+    ]
+  },
+  "version": 1
+}

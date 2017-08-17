@@ -1,10 +1,10 @@
-// swift-tools-version:3.1
+// swift-tools-version:4.0
 
 import PackageDescription
 
 let package = Package(
     name: "swift-rlp",
     dependencies: [
-      .Package(url: "https://github.com/lorentey/BigInt.git", majorVersion: 2, minor: 1)
+      .package(url: "https://github.com/lorentey/BigInt.git", from: "1.0.0")
     ]
 )
